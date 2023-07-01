@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "name": "key-manager-example-app",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "node -r esbuild-register -r dotenv/config ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@niveth/key-manager": "^1.1.0",
+    "esbuild": "^0.18.11",
+    "esbuild-register": "^3.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "dotenv": "^16.3.1"
+  }
+}
